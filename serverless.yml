@@ -1,0 +1,13 @@
+service: serverless-static-deploy
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+
+functions:
+  build:
+    handler: handler.build
+    events:
+      - http:
+          path: build
+          method: post

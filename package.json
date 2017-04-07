@@ -1,0 +1,54 @@
+{
+  "name": "display-view-client",
+  "version": "0.1.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "bin": {
+    "display-client": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.5",
+    "cors": "^2.8.1",
+    "express": "^4.15.0",
+    "express-ws": "^3.0.0",
+    "gulp": "^3.9.1",
+    "http-server": "^0.9.0",
+    "node-uuid": "^1.4.7",
+    "nunjucks": "^3.0.0",
+    "then-request": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jasmine": "^2.5.3",
+    "mocha": "^3.2.0",
+    "git-rev": "^0.2.1",
+    "@slack/client": "^3.8.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.2.0",
+    "gulp-s3": "^0.3.0",
+    "gulp-s3-upload": "^1.6.4",
+    "gulp-clean": "^0.3.2",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-finish": "^0.1.2",
+    "gulp-gzip": "^1.4.0",
+    "gulp-manifest": "^0.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace-task": "^0.11.0",
+    "gulp-s3-deploy": "^1.0.1",
+    "gulp-tar": "^1.9.0",
+    "gulp-ttf2woff": "^1.1.0",
+    "gulp-useref": "^3.1.2",
+    "gulp-watch": "^4.3.11",
+    "gulp-yaml": "^1.0.1",
+    "gulp-zip": "^3.2.0",
+    "slack": "^8.1.2",
+    "slack-node": "^0.1.8"
+  }
+}
